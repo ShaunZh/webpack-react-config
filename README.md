@@ -2,12 +2,12 @@
 react基于webpack和babel以及es6的项目搭建
 ------------------------------
 
-###1.打开命令提示窗口，输入  
+### 1.打开命令提示窗口，输入  
 mkdir react_test  
 cd react_test  
 npm  init  
 
-###2.会在文件夹根目录生成package.json文件，同时我们的项目结构如下  
+### 2.会在文件夹根目录生成package.json文件，同时我们的项目结构如下  
 + app  
 index.js  
 + build  
@@ -20,7 +20,7 @@ bundle.js(自动生成)
 + .babelrc(babel解析es6,react的配置)  
 
 
-###3.在package.json中配置好我们需要的依赖  
+### 3.在package.json中配置好我们需要的依赖  
 ```javascript
 
 "devDependencies": {  
